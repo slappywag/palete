@@ -1,0 +1,9 @@
+{
+	"name": "app",
+	"private": true,
+	"dependencies": {
+		"angular": "~1.5",
+		"angular-material": "~1.0",
+		"angular-ui-router": "~0.2"
+	}
+}

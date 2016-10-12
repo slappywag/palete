@@ -1,0 +1,12 @@
+{
+	"name": "app",
+	"private": true,
+	"dependencies": {
+		"gurt": "git@bitbucket.org:learningscience-ondemand/gurt.git",
+		"gurt-webapp": "git@bitbucket.org:learningscience-ondemand/gurt-webapp.git"
+	},
+	"scripts": {
+		"build": "node node_modules/.bin/gurt --frags gurt-webapp --build",
+		"serve": "node node_modules/.bin/gurt --frags gurt-webapp --serve"
+	}
+}

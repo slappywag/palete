@@ -1,0 +1,71 @@
+//********************************
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// 		Global styles
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//********************************
+
+// -------------------------------
+// 		fonts
+// -------------------------------
+
+@import "vars";
+
+.view {
+	font-family: 'Questrial', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+h1 {
+	font-weight: 700;
+	font-size: 200%;
+}
+h2 {
+	font-weight: 400;
+	font-size: 97%;
+}
+p {
+	font-weight: 400;
+}
+
+// -------------------------------
+// 		view 
+// -------------------------------
+
+.view {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	background-color: $grey-light;
+}
+
+// -------------------------------
+// 		customise buttons
+// -------------------------------
+
+.md-button, 
+.md-button.md-raised,
+.md-button.md-raised:not([diabled]) {
+	margin-top: 18px;
+  	color: currentColor;
+  	background-color: $light-blue;
+  	font-weight: 700;
+  	&:not([disabled]):hover {
+  		background-color: $dark-blue;
+	}
+	&[disabled] {
+		background-color: $light-blue;
+		color: $light-blue;
+		opacity: 0.5;
+	}
+	&:focus {
+		background-color: $dark-blue;
+	}
+	&.selected{
+	   	background-color: $dark-blue;
+	   	box-shadow: none;
+	}
+}
+
+.md-focused {
+	background-color: $dark-blue;
+}

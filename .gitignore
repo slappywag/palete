@@ -1,0 +1,11 @@
+# Ignore node dir
+node_modules/
+
+# Ignore libs dir
+code/libs/
+
+# Ignore dist dir
+dist/
+
+# Ignore .DS_Store
+**/**/.DS_Store
